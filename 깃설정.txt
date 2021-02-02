@@ -98,13 +98,56 @@ origin  https://github.com/chlwp11/layout1.git (push)
 --------------------------------------
 업로드(push) 할 파일 선택하기(모두선택)
 
+1개의 파일 선택 업로드 추가(add) 선택(스테이징)
+
+$ git add index.html
 
 
 
 
+-----------------------------------------
+업로드할 파일을 커밋(commit)하게 
+수정내용 및 삭제, 추가등을 체크 확인 절차
+
+$ git commit -m 'Upload 2021-02-02'
+
+[master (root-commit) eef629d] Upload 2021-02-02
+ 12 files changed, 5251 insertions(+)
+ create mode 100644 css/reset.css
+ create mode 100644 css/style.css
+ create mode 100644 icon/font-awesome.css
+ create mode 100644 icon/fontawesome.js
+ create mode 100644 icon/fonts/FontAwesome.otf
+ create mode 100644 icon/fonts/fontawesome-webfont.eot
+ create mode 100644 icon/fonts/fontawesome-webfont.svg
+ create mode 100644 icon/fonts/fontawesome-webfont.ttf
+ create mode 100644 icon/fonts/fontawesome-webfont.woff
+ create mode 100644 icon/fonts/fontawesome-webfont.woff2
+ create mode 100644 index.html
+ create mode 100644 "\352\271\203\354\204\244\354\240\225.txt"
 
 
+-------------------------------------
+최종 업로드 하기
 
+$ git push origin master
+
+
+---------
+git add.
+
+-------
+git commit -m 'Update
+
+
+---------------
+업로드 후에 수정하고 다시 스테이징하고 커밋하고 푸쉬하기
+
+$ git add.
+
+$ git commit-m 'Update 2021-02-02 '
+
+$ git push origin master
 
 
 --------------------------------------------------------
